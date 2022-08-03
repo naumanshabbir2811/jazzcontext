@@ -14,13 +14,17 @@ function Index() {
             <li style={{ color: pathname === '/' ? 'red' : 'black' }}>Home</li>
           </Link>
           <Link to="about">
-            <li style={{ color: pathname === '/' ? 'red' : 'black' }}>About</li>
+            <li style={{ color: pathname === '/about' ? 'red' : 'black' }}>
+              About
+            </li>
           </Link>
           <Link to="cart">
-            <li style={{ color: pathname === '/' ? 'red' : 'black' }}>Cart</li>
+            <li style={{ color: pathname === '/cart' ? 'red' : 'black' }}>
+              Cart
+            </li>
           </Link>
           <Link to="signin">
-            <li style={{ color: pathname === '/' ? 'red' : 'black' }}>
+            <li style={{ color: pathname === '/signin' ? 'red' : 'black' }}>
               Sign In
             </li>
           </Link>
