@@ -3,7 +3,6 @@ import Cards from './components/Cards';
 // import styled from 'styled-components';
 import Header from './components/Header';
 import { Routes, Route } from 'react-router';
-
 import Cart from './components/Cart';
 import About from './components/About';
 import SignIn from './components/SignIn';
